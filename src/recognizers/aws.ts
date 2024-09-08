@@ -4,7 +4,7 @@ import {fromUtf8, toUtf8} from '@aws-sdk/util-utf8-node'
 import {Credentials} from 'aws-sdk'
 import {ifElse, not, pathEq, pathOr, pathSatisfies, propSatisfies, tap, when} from 'ramda'
 import {allPass, createPipe, prop} from 'remeda'
-import crypto from 'webcrypto'
+import crypto from "crypto-browserify";
 import {createPresignedURL, getCredentials} from '../lib/awsV4'
 import Connection from '../lib/Connection'
 import {CustomEventTarget} from '../lib/CustomEventTarget'

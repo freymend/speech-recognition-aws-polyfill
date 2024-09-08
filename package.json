@@ -72,7 +72,6 @@
     "readable-stream": "^3.6.0",
     "remeda": "0.0.27",
     "stream-browserify": "^3.0.0",
-    "util": "^0.12.3",
-    "webcrypto": "^0.1.1"
+    "util": "^0.12.3"
   }
 }
