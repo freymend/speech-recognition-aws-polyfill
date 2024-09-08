@@ -31,7 +31,9 @@ module.exports = [
     globalObject: "typeof self !== 'undefined' ? self : this"
   },
   devServer: {
-    contentBase: path.resolve(__dirname, './dist')
+    static: {
+      directory: path.resolve(__dirname, './dist')
+    }
   },
   plugins: [
     new webpack.ProvidePlugin({
