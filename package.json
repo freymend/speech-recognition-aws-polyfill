@@ -1,5 +1,5 @@
 {
-  "name": "speech-recognition-aws-polyfill",
+  "name": "@colleague/speech-recognition-aws-polyfill",
   "version": "0.3.1",
   "description": "Polyfill for the SpeechRecognition browser API using AWS Transcribe",
   "main": "dist/index.js",
